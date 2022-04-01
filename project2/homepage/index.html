@@ -1,61 +1,50 @@
-<!--
-Author: Colorlib
-Author URL: https://colorlib.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>WELCOME</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- Custom Theme files -->
-<link href="style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- //Custom Theme files -->
-<!-- web font -->
-<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
-<!-- //web font -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HomePage</title>
 </head>
 <body>
-	<!-- main -->
-	<div class="main-w3layouts wrapper">
-		<h1>WELCOME <p id="wName" style="display: inline;">Taebah</p></h1>
-		<div class="main-agileinfo">
-			<div class="agileits-top">
-				<form action="#" method="post">
-					<h3>Welcome To our little Quiz Form For HTML,CSS and Java Script, Hope you enjoy the exams... 
-				    </h3>
-					<br><br>
+    <h1 id="wName"></h1>
+    <form id="selectForm">
+        <h2>Welcome To our little Quiz Form For HTML,CSS and Java Script, Hope you enjoy the exams... 
+        </h2>
+        <br><br>
 
-					<div id="selectDiv">
-						<select name="select" id="select">
-						<option value="" id="optin1">HTML Quiz(5min)</option>
-						<option value="" id="optin2">CSS Quiz(5min)</option>
-						<option value="" id="optin3">JavaScript Quiz(10min)</option>
-					    </select>
-				    </div>
+        <div id="selectDiv">
+            <select name="select" id="select" onchange="selectExam()">
+            <option value="1" class="optin1" aria-checked="false">HTML Quiz(5min)</option>
+            <option value="2" class="optin2" aria-checked="true">CSS Quiz(5min)</option>
+            <option value="3" class="optin3" aria-checked="undefined">JavaScript Quiz(10min)</option>
+            </select>
+        </div>
+        <button type="submit" id="submitt" value="" placeholder=""><a href="../questions/index.html">Start The Quiz</a></button>
 
-					<input type="submit" value="Start the quiz" >
-					
-				</form>
-			</div>
-		</div>
-		
-		<ul class="colorlib-bubbles">
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-	</div>
-	<!-- //main -->
+        
+        
+    </form>
+    <!-- <form action="" id="registerForm">
+
+        
+        <div id="subdiv"> <a href="../Homepage/index.html" id="sub">Go to homepage</a></div>
+        <button type="submit" id="submit" value="" placeholder="">SignUp</button>
+        <p>Already have an Account? <a href="../Login Page/index.html" id="a11"> Login Now!</a></p>
+    
+    </form> -->
+
+    <ul id="ul1"></ul>
+    <ul id="ul2"></ul>
+    <ul id="ul3"></ul>
+    <ul id="ul4"></ul>
+    <ul id="ul5"></ul>
+    <ul id="ul6"></ul>
+    <ul id="ul7"></ul>
+    <ul id="ul8"></ul>
+    <ul id="ul9"></ul>
+    <ul id="ul99"></ul>
 </body>
+<script src="app.js"></script>
 </html>
