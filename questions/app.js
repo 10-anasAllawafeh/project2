@@ -9,72 +9,72 @@ let answer2=document.getElementById("spanAns2");
 let answer3=document.getElementById("spanAns3");
 let savedAnswers=[];
 let i=1;
-
+let yourAnswers=[];
 //////////////////////////////////////HTML Questions
 const htmlQuestions=[
     {
-        question: 'Question 1',
-        choice1: 'choice1',
-        choice2: 'choice2',
-        choice3: 'choice3',
+        question: 'Q1: the tag &lt;p&gt; is',
+        choice1:  'block element',//
+        choice2:  'inline element',
+        choice3:  'inline-block element',
     },
     {
-        question: 'Question 2',
-        choice1: 'Q2choice1',
-        choice2: 'Q2choice2',
-        choice3: 'Q2choice3',
+        question: 'Q2: what is the  compenents of the HTML structure ? :',
+        choice1:  '&lt;section&gt; and &lt;div&gt;',
+        choice2:  '&lt;head&gt; and &lt;body&gt;',//
+        choice3:  '&lt;form&gt; and &lt;table&gt;',
     },
     {
-        question: 'Question 3',
-        choice1: 'Q3choice1',
-        choice2: 'Q3choice2',
-        choice3: 'Q3choice3',
+        question: 'Q3: what are the three types of lists ?',
+        choice1:  '&lt;ol&gt; &lt;ul&gt; &lt;dl&gt;',//
+        choice2:  '&lt;li&gt; &lt;tr&gt; &lt;td&gt;',
+        choice3:  '&lt;b&gt; &lt;i&gt; &lt;p&gt;',
     },
     {
-        question: 'Question 4',
-        choice1: 'Q4choice1',
-        choice2: 'Q4choice2',
-        choice3: 'Q4choice3',
+        question: 'Q4: which is the right way to write the anchor tag?',
+        choice1:  '&lt; a href="url"  new&gt;',
+        choice2:  '&lt; a href="url" target="new"&gt;',
+        choice3:  '&lt;a href="url" target="_blank"&gt;',//
     },
     {
-        question: 'Question 5',
-        choice1: 'Q5choice1',
-        choice2: 'Q5choice2',
-        choice3: 'Q5choice3',
+        question: 'Q5: which of these element are all <table> element?',
+        choice1:  '&lt;table&gt; &lt;tr&gt; &lt;tt&gt;',
+        choice2:  '&lt;table&gt; &lt;tr&gt; &lt;td&gt;',//
+        choice3:  '&lt;table&gt; &lt;head&gt; &lt;tfoot&gt;',
     }
 ];
 ///////////////////////////////////////////////
 //////////////////////////////////////CSS Questions
 const cssQuestions=[
     {
-        question: 'Question 1',
-        choice1: 'choice1',
-        choice2: 'choice2',
-        choice3: 'choice3',
+        question: 'Q1: Where in an HTML document is the correct place to refer to an external style sheet?',
+        choice1: 'in the head section',//
+        choice2: 'in the body section',
+        choice3: 'at the end of the document',
     },
     {
-        question: 'Question 2',
-        choice1: 'Q2choice1',
-        choice2: 'Q2choice2',
-        choice3: 'Q2choice3',
+        question: 'Q2: Which HTML attribute is used to define inline styles?',
+        choice1: 'class',
+        choice2: 'style',//
+        choice3: 'font',
     },
     {
-        question: 'Question 3',
-        choice1: 'Q3choice1',
-        choice2: 'Q3choice2',
-        choice3: 'Q3choice3',
+        question: 'Q3: Which property is used to change the background color?',
+        choice1: 'background-color',//
+        choice2: 'bcolor',
+        choice3: 'color',
     },
     {
-        question: 'Question 4',
-        choice1: 'Q4choice1',
-        choice2: 'Q4choice2',
-        choice3: 'Q4choice3',
+        question: 'Q4: Which CSS property controls the text size?',
+        choice1:  'text-size',
+        choice2:  'font-style',
+        choice3:  'font-size',//
     },
     {
-        question: 'Question 5',
-        choice1: 'Q5choice1',
-        choice2: 'Q5choice2',
-        choice3: 'Q5choice3',
+        question: 'Q5: Which property is used to change the left margin of an element?',
+        choice1: 'padding-left',
+        choice2: 'margin-left',//
+        choice3: 'indent',
     }
 ];
 
@@ -86,37 +86,58 @@ const cssQuestions=[
 //////////////////////////////////////JS Questions
 const jsQuestions=[
     {
-        question: 'Question 1',
-        choice1: 'choice1',
-        choice2: 'choice2',
-        choice3: 'choice3',
+        question: 'Q1: How many types of data in JavaScript',
+        choice1: '8',//
+        choice2: '6',
+        choice3: '4',
     },
     {
-        question: 'Question 2',
-        choice1: 'Q2choice1',
-        choice2: 'Q2choice2',
-        choice3: 'Q2choice3',
+        question: 'Q2: How do yo creat a function in JavaScript?',
+        choice1: 'function=myfunction()',
+        choice2: 'function myfunction()',//
+        choice3: 'function:myfunction()',
     },
     {
-        question: 'Question 3',
-        choice1: 'Q3choice1',
-        choice2: 'Q3choice2',
-        choice3: 'Q3choice3',
+        question: 'Q3: How does the while loop start',
+        choice1: 'while(i<=10, i++)',//
+        choice2: 'while i=1 to 10',
+        choice3: 'while(i<=10)',
     },
     {
-        question: 'Question 4',
-        choice1: 'Q4choice1',
-        choice2: 'Q4choice2',
-        choice3: 'Q4choice3',
+        question: 'Q4: how do you find the number with highest value of x and y ?',
+        choice1: 'top(x,y)',
+        choice2: 'ceil(x,y)',
+        choice3: 'math.ceil(x,y)',//
     },
     {
-        question: 'Question 5',
-        choice1: 'Q5choice1',
-        choice2: 'Q5choice2',
-        choice3: 'Q5choice3',
+        question: 'Q5: How do you declare a JavaScript variable?',
+        choice1: 'variable carName',
+        choice2: 'var carName',//
+        choice3: 'v carName',
     }
 ];
 ///////////////////////////////////////////////
+///////////////////////////////////////////////
+let qh1=Object.values(htmlQuestions[0]);
+let qh2=Object.values(htmlQuestions[1]);
+let qh3=Object.values(htmlQuestions[2]);
+let qh4=Object.values(htmlQuestions[3]);
+let qh5=Object.values(htmlQuestions[4]);
+let qh=[qh1,qh2,qh3,qh4,qh5];
+console.log(qh);
+////////////////////////////////////////////////
+let qc1=Object.values(cssQuestions[0]);
+let qc2=Object.values(cssQuestions[1]);
+let qc3=Object.values(cssQuestions[2]);
+let qc4=Object.values(cssQuestions[3]);
+let qc5=Object.values(cssQuestions[4]);
+////////////////////////////////////////////////
+let qj1=Object.values(jsQuestions[0]);
+let qj2=Object.values(jsQuestions[1]);
+let qj3=Object.values(jsQuestions[2]);
+let qj4=Object.values(jsQuestions[3]);
+let qj5=Object.values(jsQuestions[4]);
+//////////////////////////////////////////////////
 
 if (examType == "HTML") {
     var selectedExamQuestions= htmlQuestions;
@@ -146,10 +167,11 @@ function nextQuestion(){
     let questionAns= document.getElementsByName('radio');
     console.log(questionAns);  
     for(j = 0; j < questionAns.length; j++) {
-        if(questionAns[j].checked)
+        if(questionAns[j].checked){
         savedAnswers.push(questionAns[j].value);
+        }
     }
-        console.log(savedAnswers);
+        console.log(SpecifiedQuestions);
     i=savedAnswers.length+1;
     switch(i){
         case(1):
@@ -184,14 +206,21 @@ function nextQuestion(){
             break;
         default:
             qDiv.style.display='none';
-            localStorage.setItem("Answers",savedAnswers)
+            for(i=0; i<5; i++){
+                let a=Object.values(SpecifiedQuestions[i]);
+                yourAnswers.push(a[savedAnswers[i]]);
+            }
+            console.log(yourAnswers);
+            localStorage.setItem("Answers",JSON.stringify(savedAnswers));
+            localStorage.setItem("yourAnswers",JSON.stringify(yourAnswers));
             resultButt.style.display='block';
     }
-
 }
+
 setTimeout(function(){
     qDiv.style.display='none';
-localStorage.setItem("Answers",savedAnswers)
+localStorage.setItem("Answers",JSON.stringify(savedAnswers));
+localStorage.setItem("yourAnswers",JSON.stringify(yourAnswers));
 resultButt.style.display='block';}
 ,300000)
 
@@ -251,31 +280,7 @@ resultButt.style.display='block';}
 
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-
-
-//////////////////////////////////CSS EXAM /////////////////////////////////////////////////////////////
-
-
-
-
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-//////////////////////////////////JS EXAM /////////////////////////////////////////////////////////////
-
-
-
-
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-///////////////////////////////TIMER//////////////////////////////////////////////////////////
 // Credit: Mateusz Rybczonec
 
 const FULL_DASH_ARRAY = 283;

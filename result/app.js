@@ -1,6 +1,9 @@
 "use strict";
 let newName= localStorage.getItem('name');
+
 document.getElementById("userName").innerHTML=`Name : ${newName}`;
+let finalResult=document.getElementById("finalResult");
+
 
 let examType= localStorage.getItem('exam');
 
@@ -142,6 +145,8 @@ let qh2=Object.values(htmlQuestions[1]);
 let qh3=Object.values(htmlQuestions[2]);
 let qh4=Object.values(htmlQuestions[3]);
 let qh5=Object.values(htmlQuestions[4]);
+let qh=[qh1,qh2,qh3,qh4,qh5];
+console.log(qh);
 ////////////////////////////////////////////////
 let qc1=Object.values(cssQuestions[0]);
 let qc2=Object.values(cssQuestions[1]);
@@ -186,4 +191,73 @@ else if (examType==`JS`){
     questionText(qj1,qj2,qj3,qj4,qj5);
     correctAnaswerText(qj1,qj2,qj3,qj4,qj5);
 }
+
+let answersArr=JSON.parse(localStorage.getItem('yourAnswers'));
+console.log(answersArr);
+yourAnswer1.innerHTML=answersArr[0];
+yourAnswer2.innerHTML=answersArr[1];
+yourAnswer3.innerHTML=answersArr[2];
+yourAnswer4.innerHTML=answersArr[3];
+yourAnswer5.innerHTML=answersArr[4];
+
+let x=0;
+let y=0;
+let i=0;
+ switch (i) {
+     case 0:
+        if(answersArr[0]===correctAnsewres[0]){
+            x++;
+            yourAnswer1.style.color="rgba(0, 182, 0, 0.712)";
+
+        }else{
+            y++;
+            yourAnswer1.style.color="red";
+        }
+        case 1:
+            if(answersArr[1]===correctAnsewres[1]){
+                x++;
+                yourAnswer2.style.color="rgba(0, 182, 0, 0.712)";
     
+            }else{
+                y++;
+                yourAnswer2.style.color="red";
+            }    
+             case 2:
+            if(answersArr[2]===correctAnsewres[2]){
+                x++;
+                yourAnswer3.style.color="rgba(0, 182, 0, 0.712)";
+    
+            }else{
+                y++;
+                yourAnswer3.style.color="red";
+            }    
+             case 3:
+            if(answersArr[3]===correctAnsewres[3]){
+                x++;
+                yourAnswer4.style.color="rgba(0, 182, 0, 0.712)";
+    
+            }else{
+                y++;
+                yourAnswer4.style.color="red";
+            }   
+              case 4:
+            if(answersArr[4]===correctAnsewres[4]){
+                x++;
+                yourAnswer5.style.color="rgba(0, 182, 0, 0.712)";
+    
+            }else{
+                y++;
+                yourAnswer5.style.color="red";
+            }    
+     default:
+         if(x>y){
+            finalResult.innerHTML=`YOU PASSED THE QUIZ!!! &nbsp; &nbsp; ${(x/5)*100} %`;
+            finalResult.style.backgroundColor="rgba(0, 182, 0, 0.712)";
+            
+         }
+         else{
+            finalResult.innerHTML=`YOU FAILED THE QUIZ &nbsp; &nbsp; ${(x/5)*100} %`;
+            finalResult.style.backgroundColor="red";
+         }
+         break;
+ }
