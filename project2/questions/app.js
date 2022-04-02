@@ -11,7 +11,15 @@ let answer3=document.getElementById("answer3");
 //////////////////////////////////HTML EXAM /////////////////////////////////////////////////////////////
 
 function htmlExam() {
-    HTML
+    question.innerHTML="Question one";
+    answer1.innerHTML="answer one";
+    answer2.innerHTML="answer two";
+    answer3.innerHTML="answer three";
+    nextQuestion();
+    function nextQuestion(){
+    
+    }
+
 }
 
 
