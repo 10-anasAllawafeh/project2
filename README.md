@@ -12,8 +12,8 @@ contain a small breif about the website and what to expect to find
 
 ### hompage mockup and wireframe :
 
-* [wireframe](./wire%20frame%20pics/2nd%20Project%20Wireframe%203.jpg)
-* [mockup](./mockup%20pics/2nd%20Project%20Mockup%203.jpg)
+* ![wireframe](./wire%20frame%20pics/2nd%20Project%20Wireframe%203.jpg)
+* ![mockup](./mockup%20pics/2nd%20Project%20Mockup%203.jpg)
 
 
 ## <>register Form 
@@ -22,8 +22,8 @@ you can Sign up here and make your own account
 
 ### Register Form mockup and wireframe 
 
-*[wireframe](./wire%20frame%20pics/2nd%20Project%20Wireframe1.jpg)
-*[Mockup](./mockup%20pics/2nd%20Project%20Mockup%201.jpg)
+* ![wireframe](./wire%20frame%20pics/2nd%20Project%20Wireframe1.jpg)
+* ![Mockup](./mockup%20pics/2nd%20Project%20Mockup%201.jpg)
 
 
 
@@ -33,8 +33,8 @@ You can Sign in here if you already have an account
 
 ### login Form mockup and wireframe 
 
-*[wireframe](./wire%20frame%20pics/2nd%20Project%20Wireframe%202.jpg)
-*[Mockup](./mockup%20pics/2nd%20Project%20Mockup%202.jpg)
+* ![wireframe](./wire%20frame%20pics/2nd%20Project%20Wireframe%202.jpg)
+* ![Mockup](./mockup%20pics/2nd%20Project%20Mockup%202.jpg)
 
 ## <>Questions Square 
 
@@ -42,8 +42,8 @@ Square were all the questions appairs on
 
 ### Questions Square mockup and wireframe 
 
-*[wireframe](./wire%20frame%20pics/2nd%20Project%20Wireframe4.jpg)
-*[Mockup](./mockup%20pics/2nd%20Project%20Mockup%204.jpg.jpg)
+* ![wireframe](./wire%20frame%20pics/2nd%20Project%20Wireframe%204.jpg)
+* ![Mockup](./mockup%20pics/2nd%20Project%20Mockup%204.jpg)
 
 ## <>Resualt table 
 
@@ -51,8 +51,8 @@ a table that shows your name with the score, and display all the questions with 
 
 ### Resualt table mockup and wireframe 
 
-*[wireframe](./wire%20frame%20pics/2nd%20Project%20Wireframe5.jpg)
-*[Mockup](./mockup%20pics/2nd%20Project%20Mockup%205.jpg)
+* ![wireframe](./wire%20frame%20pics/2nd%20Project%20Wireframe%205.jpg)
+* ![Mockup](./mockup%20pics/2nd%20Project%20Mockup%205.jpg)
 
 
 ## this project was made by :
