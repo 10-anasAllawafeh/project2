@@ -264,8 +264,7 @@ button{
 
 
   /* /////////////////////media///////////////////////////// */
-
-  @media (max-width:1024)
+  /* @media (max-width:1400px)
   {
     #ul1{
       position: absolute;
@@ -284,7 +283,7 @@ button{
       top: 55%;
       left: 10%;
       background-color: rgb(213, 208, 208);
-      width:5%;
+      width:11%;
       height: 15vh;
       display: block;
       border-radius: 50%;
@@ -296,7 +295,7 @@ button{
       top: 10%;
       left: 60%;
       background-color: rgb(213, 208, 208);
-      width:7.5%;
+      width:11.5%;
       height: 20vh;
       display: block;
       border-radius: 75%;
@@ -308,7 +307,7 @@ button{
       top: 70%;
       left: 70%;
       background-color: rgb(213, 208, 208);
-      width:7.5%;
+      width:11.5%;
       height: 20vh;
       display: block;
       border-radius: 75%;
@@ -320,7 +319,7 @@ button{
       top: 22%;
       left: 32%;
       background-color: rgb(213, 208, 208);
-      width:2.5%;
+      width:5.5%;
       height: 10vh;
       display: block;
       border-radius: 50%;
@@ -332,7 +331,7 @@ button{
       top: 38%;
       left: 45%;
       background-color: rgb(213, 208, 208);
-      width:2.5%;
+      width:5.5%;
       height: 10vh;
       display: block;
       border-radius: 50%;
@@ -344,7 +343,7 @@ button{
       top: 50%;
       left: 30%;
       background-color: rgb(213, 208, 208);
-      width: 7.5%;
+      width: 11.5%;
       height: 20vh;
       display: block;
       border-radius: 100%;
@@ -380,7 +379,7 @@ button{
       top: 11%;
       left: 34%;
       background-color: rgb(213, 208, 208);
-      width: 0.5%;
+      width: 4.5%;
       height: 6vh;
       display: block;
       border-radius: 100%;
@@ -388,4 +387,129 @@ button{
   
   }
   }
+
+
+  @media (max-width:1024px)
+  {
+    #ul1{
+      position: absolute;
+      top: 0%;
+      left: 80%;
+      background-color: rgb(213, 208, 208);
+      width:9%;
+      height: 15vh;
+      display: block;
+      border-radius: 50%;
+      opacity: 20%;
+  
+  }
+  #ul2{
+      position: absolute;
+      top: 55%;
+      left: 10%;
+      background-color: rgb(213, 208, 208);
+      width:11%;
+      height: 15vh;
+      display: block;
+      border-radius: 50%;
+      opacity: 20%;
+  
+  }
+  #ul3{
+      position: absolute;
+      top: 10%;
+      left: 60%;
+      background-color: rgb(213, 208, 208);
+      width:15.5%;
+      height: 20vh;
+      display: block;
+      border-radius: 75%;
+      opacity: 20%;
+  
+  }
+  #ul4{
+      position: absolute;
+      top: 70%;
+      left: 70%;
+      background-color: rgb(213, 208, 208);
+      width:15.5%;
+      height: 20vh;
+      display: block;
+      border-radius: 75%;
+      opacity: 20%;
+  
+  }
+  #ul5{
+      position: absolute;
+      top: 22%;
+      left: 32%;
+      background-color: rgb(213, 208, 208);
+      width:7.5%;
+      height: 10vh;
+      display: block;
+      border-radius: 50%;
+      opacity: 20%;
+  
+  }
+  #ul6{
+      position: absolute;
+      top: 38%;
+      left: 45%;
+      background-color: rgb(213, 208, 208);
+      width:7.5%;
+      height: 10vh;
+      display: block;
+      border-radius: 50%;
+      opacity: 20%;
+  
+  }
+  #ul7{
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      background-color: rgb(213, 208, 208);
+      width: 15.5%;
+      height: 20vh;
+      display: block;
+      border-radius: 100%;
+      opacity: 20%;
+  
+  }
+  #ul8{
+      position: absolute;
+      top: 40%;
+      left: 65%;
+      background-color: rgb(213, 208, 208);
+      width: 0.5%;
+      height: 6vh;
+      display: block;
+      border-radius: 100%;
+      opacity: 20%;
+  
+  }
+  #ul9{
+      position: absolute;
+      top: 75%;
+      left: 30%;
+      background-color: rgb(213, 208, 208);
+      width: 0.5%;
+      height: 6vh;
+      display: block;
+      border-radius: 100%;
+      opacity: 20%;
+  
+  }
+  #ul99{
+      position: absolute;
+      top: 11%;
+      left: 34%;
+      background-color: rgb(213, 208, 208);
+      width: 4.5%;
+      height: 6vh;
+      display: block;
+      border-radius: 100%;
+      opacity: 20%;
+  
+  }
+  } */
   

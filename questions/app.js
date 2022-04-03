@@ -217,14 +217,21 @@ function nextQuestion(){
             localStorage.setItem("Answers",JSON.stringify(savedAnswers));
             localStorage.setItem("yourAnswers",JSON.stringify(yourAnswers));
             resultButt.style.display='block';
+            
     }
 }
 
 setTimeout(function(){
     qDiv.style.display='none';
+    for(k=0;k<5;k++){
+      if (yourAnswers[k]== undefined) {
+        yourAnswers[k]="No answer";
+      }
+    }
 localStorage.setItem("Answers",JSON.stringify(savedAnswers));
 localStorage.setItem("yourAnswers",JSON.stringify(yourAnswers));
-resultButt.style.display='block';}
+resultButt.style.display='block'; 
+document.getElementById("app").style.display="none";}
 ,300000)
 
 // function btnClick(){
@@ -255,7 +262,7 @@ resultButt.style.display='block';}
 //             choice3: 'choice3',
 //         },
 //         {
-//             question: 'Question 3',
+//            a question: 'Question 3',
 //             choice1: 'choice1',
 //             choice2: 'choice2',
 //             choice3: 'choice3',
