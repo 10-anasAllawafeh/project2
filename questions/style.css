@@ -177,7 +177,7 @@ body {
         text-size-adjust: 300%;
         
     }
-    button{
+    #btnNext{
         width:300%;
     }
     .base-timer {
@@ -211,7 +211,7 @@ body {
         text-size-adjust: 215%;
         
     }
-    button{
+    #btnNext{
         width:215%;
     }
     .base-timer {
