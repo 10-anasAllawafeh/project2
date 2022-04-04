@@ -16,6 +16,12 @@ function CheckFun(event){
 
     for(let i=1; i<storageData.length;){
         console.log(storageData[i]);
+
+        if(loginEmail == ""){
+            alert("please enter an email");
+            break;
+        }
+
         if(storageData[i] === loginEmail ){
 
         if(storageData[i+1] === loginPass){
@@ -31,7 +37,7 @@ function CheckFun(event){
         else {
         
         if(i ===storageData.length-2){
-            alert("the email is wrong")
+            alert("the email is wrong");
         }
         i=i+3;
         continue;
