@@ -52,7 +52,7 @@ a table that shows your name with the score, and display all the questions with 
 ### Resualt table mockup and wireframe 
 
 * ![wireframe](./wire%20frame%20pics/2nd%20Project%20Wireframe%205.jpg)
-* ![Mockup](./mockup%20pics/2nd%20Project%20Mockup%205.jpg)
+* ![Mockup](./mockup%20pics/2nd%20Project%20Mockup%20(5).jpg)
 
 
 ## this project was made by :
