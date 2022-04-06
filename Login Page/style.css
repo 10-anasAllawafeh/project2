@@ -60,36 +60,33 @@ button{
     left: 80%;
     background-color: rgb(213, 208, 208);
     width:5%;
-    height:0;
-    padding-bottom: 7%;
+    padding-bottom: 5%;
     display: block;
-    border-radius: 50%;
+    border-radius: 50px;
     opacity: 20%;
 
 }
 #ul2{
     position: absolute;
-    top: 55%;
-    left: 10%;
+    top: 85%;
+    left: 3%;
     background-color: rgb(213, 208, 208);
     width:5%;
-    height:0;
-    padding-bottom: 7%;
+    padding-bottom: 5%;
     display: block;
-    border-radius: 50%;
+    border-radius: 50px;
     opacity: 20%;
 
 }
 #ul3{
     position: absolute;
-    top: 10%;
+    top: 28%;
     left: 60%;
     background-color: rgb(213, 208, 208);
-    width:7.5%;
-    height:0;
-    padding-bottom: 7%;
+    width:5%;
+    padding-bottom: 5%;
+    border-radius: 50px;
     display: block;
-    border-radius: 75%;
     opacity: 20%;
 
 }
@@ -98,72 +95,70 @@ button{
     top: 70%;
     left: 70%;
     background-color: rgb(213, 208, 208);
-    width:7.5%;
-    height:0;
-    padding-bottom: 7%;
+    width:10%;
+    padding-bottom: 10%;
     display: block;
-    border-radius: 75%;
+    border-radius: 100px;
     opacity: 20%;
 
 }
 #ul5{
     position: absolute;
-    top: 22%;
-    left: 32%;
+    top: 5%;
+    left: 17%;
     background-color: rgb(213, 208, 208);
-    width:2.5%;
-    height: 0;
-    padding-bottom: 7%;
+    width:10%;
+    padding-bottom: 10%;
     display: block;
-    border-radius: 50%;
+    border-radius: 100px;
     opacity: 20%;
 
 }
 #ul6{
     position: absolute;
-    top: 38%;
-    left: 45%;
+    top: 46%;
+    left: 64%;
     background-color: rgb(213, 208, 208);
-    width:2.5%;
-    height: 10vh;
+    width: 10%;
+    padding-bottom: 10%;
     display: block;
-    border-radius: 50%;
+    border-radius: 100px;
     opacity: 20%;
 
 }
 #ul7{
     position: absolute;
-    top: 50%;
-    left: 30%;
+    top: 61%;
+    left: 14%;
     background-color: rgb(213, 208, 208);
-    width: 7.5%;
-    height: 20vh;
+    width: 15%;
+    padding-bottom: 15%;
     display: block;
-    border-radius: 100%;
+    border-radius: 130px;
     opacity: 20%;
 
 }
 #ul8{
     position: absolute;
-    top: 40%;
-    left: 65%;
+    top: 17%;
+    left: 72%;
     background-color: rgb(213, 208, 208);
-    width: 0.5%;
-    height: 6vh;
+    width: 15%;
+    padding-bottom: 15%;
     display: block;
-    border-radius: 100%;
+    border-radius: 130px;
     opacity: 20%;
 
 }
 #ul9{
     position: absolute;
-    top: 75%;
-    left: 30%;
+    top: 29%;
+    left: 25%;
     background-color: rgb(213, 208, 208);
-    width: 0.5%;
-    height: 6vh;
+    width: 15%;
+    padding-bottom: 15%;
     display: block;
-    border-radius: 100%;
+    border-radius: 130px;
     opacity: 20%;
 
 }
@@ -172,10 +167,10 @@ button{
     top: 11%;
     left: 34%;
     background-color: rgb(213, 208, 208);
-    width: 0.5%;
-    height: 6vh;
+    width: 5%;
+    padding-bottom: 5%;
     display: block;
-    border-radius: 100%;
+    border-radius: 50px;
     opacity: 20%;
 
 }

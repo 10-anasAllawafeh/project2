@@ -372,8 +372,10 @@ setTimeout(function(){
     }
 localStorage.setItem("Answers",JSON.stringify(savedAnswers));
 localStorage.setItem("yourAnswers",JSON.stringify(yourAnswers));
-resultButt.style.display='block'; 
-document.getElementById("app").style.display="none";}
+// resultButt.style.display='block'; 
+// document.getElementById("app").style.display="none";
+window.location ="../result/index.html"
+}
 ,300000)
 
 /////////////////////////////CLOCK////////////////////////CLOCK//////////////////////////////////////////////

@@ -1,7 +1,8 @@
 //////////Login Form //////////////////////////////////////
 function logintranspert() {
-    document.getElementById('submit1').style.display="none";
-    document.getElementById("subdiv1").style.display="block";
+    // document.getElementById('submit1').style.display="none";
+    // document.getElementById("subdiv1").style.display="block";
+    window.location ="../Homepage/index.html"
 }
 
 LoginForm.addEventListener("submit",CheckFun);
