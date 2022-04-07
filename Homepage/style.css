@@ -486,7 +486,13 @@ button{
     #h2welcoming{
         text-align: center;
        font-size: 65%;
+       color: white;
+       font-weight: bold;
     } 
+    h3{
+        color: white;
+       font-weight: bold;
+    }
     
     #homeForm{
         width: 70%;
