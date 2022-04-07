@@ -83,6 +83,11 @@ button{
     display: block;
     border-radius: 50px;
     opacity: 20%;
+    animation-name: move1;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul2{
@@ -95,6 +100,11 @@ button{
     display: block;
     border-radius: 50px;
     opacity: 20%;
+    animation-name: move2;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul3{
@@ -107,6 +117,11 @@ button{
     border-radius: 50px;
     display: block;
     opacity: 20%;
+    animation-name: move3;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul4{
@@ -119,6 +134,11 @@ button{
     display: block;
     border-radius: 100px;
     opacity: 20%;
+    animation-name: move4;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul5{
@@ -131,6 +151,11 @@ button{
     display: block;
     border-radius: 100px;
     opacity: 20%;
+    animation-name: move5;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul6{
@@ -143,6 +168,11 @@ button{
     display: block;
     border-radius: 100px;
     opacity: 20%;
+    animation-name: move6;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul7{
@@ -155,6 +185,11 @@ button{
     display: block;
     border-radius: 130px;
     opacity: 20%;
+    animation-name: move7;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul8{
@@ -167,6 +202,11 @@ button{
     display: block;
     border-radius: 130px;
     opacity: 20%;
+    animation-name: move8;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul9{
@@ -179,6 +219,11 @@ button{
     display: block;
     border-radius: 130px;
     opacity: 20%;
+    animation-name: move9;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul99{
@@ -191,6 +236,11 @@ button{
     display: block;
     border-radius: 50px;
     opacity: 20%;
+    animation-name: move99;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #sub:hover {
@@ -282,6 +332,59 @@ button{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.745);
   }
+
+/* /////////////////////Animation///////////////////////////// */
+@keyframes move1 {
+    form{top:0%}
+    to{top:7%}
+    
+}
+@keyframes move2 {
+    form{top:85%}
+    to{top:78%}
+    
+}
+@keyframes move3 {
+    form{top:28%}
+    to{top:35%}
+    
+}
+@keyframes move4 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move5 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move6 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move7 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move8 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move9 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move99 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+
 
   /* /////////////////////media///////////////////////////// */
   @media (min-width:1600px) and (max-width:2560px)
@@ -699,6 +802,18 @@ button{
     }
     a {
         font-size: 40%;
+    }
+    #ul4{
+        padding-bottom: 12%;
+   }
+   #ul5{
+    padding-bottom: 12%;
+}
+   #ul6{
+    padding-bottom: 12%;
+}
+    #ul99{
+         padding-bottom: 12%;
     }
     /* #a11{
         font-size: 2.5vw;
