@@ -16,7 +16,6 @@ form{
     justify-content: center;
     align-items: center;
     width: 40%;
-    /* height: 20hv; */
     margin: 3% 0%;
     padding-top: 4%;
     border-radius: 50px;
@@ -57,9 +56,8 @@ button{
     letter-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
     width: 50%;
-    /* margin-left: 25%; */
     border-radius: 50px;
-    /* display: none; */
+    
 }
 #submitt{
     margin-left: 25%;
@@ -255,7 +253,6 @@ button{
 
 #sub{
     text-align: center;
-    /* font-size: .9em; */
     color: rgba(255, 255, 255, 0.745);
     background: rgb(113, 213, 74);
     outline: none;
@@ -264,7 +261,6 @@ button{
     padding: 5% 5%;
     -webkit-appearance: none;
     width: 100%;
-    /* margin: 2em 0; */
     letter-spacing: 2px;
     display: block;
     text-decoration: none;
@@ -297,16 +293,7 @@ button{
     margin: 0 25%;
     
   }
-  /* #option1{
-    color: white;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    background-color:#76b852;
-    width: 100%;
-    height: 5vh;
-    letter-spacing: 4px;
-    border: none;
-  } */
+  
   #selectDiv{
    display: flex;
    justify-content: center;
@@ -427,131 +414,22 @@ button{
    h2{
        font-size: 2vw;
    }
-    /* #ul1{
-      position: absolute;
-      top: 0%;
-      left: 80%;
-      background-color: rgb(213, 208, 208);
-      width:11%;
-      height: 15vh;
-      display: block;
-      border-radius: 50%;
-      opacity: 20%;
-  
+    
   }
-  #ul2{
-      position: absolute;
-      top: 70%;
-      left: 10%;
-      background-color: rgb(213, 208, 208);
-      width: 12%;
-      height: 17vh;
-      display: block;
-      border-radius: 50%;
-      opacity: 20%;
-  
+  @media (min-width:1001px) and (max-width:1200px){
+    #h2welcoming{
+        font-size: large; 
+    }
   }
-  #ul3{
-      position: absolute;
-      top: 10%;
-      left: 60%;
-      background-color: rgb(213, 208, 208);
-      width:14.5%;
-      height: 20vh;
-      display: block;
-      border-radius: 75%;
-      opacity: 20%;
-  
-  }
-  #ul4{
-      position: absolute;
-      top: 70%;
-      left: 70%;
-      background-color: rgb(213, 208, 208);
-      width: 13.5%;
-      height: 20vh;
-      display: block;
-      border-radius: 75%;
-      opacity: 20%;
-  
-  }
-  #ul5{
-      position: absolute;
-      top: 22%;
-      left: 18%;
-      background-color: rgb(213, 208, 208);
-      width: 6.5%;
-      height: 10vh;
-      display: block;
-      border-radius: 50%;
-      opacity: 20%;
-  
-  }
-  #ul6{
-      position: absolute;
-      top: 38%;
-      left: 45%;
-      background-color: rgb(213, 208, 208);
-      width: 9.5%;
-      height: 13vh;
-      display: block;
-      border-radius: 50%;
-      opacity: 20%;
-  
-  }
-  #ul7{
-      position: absolute;
-      top: 50%;
-      left: 16%;
-      background-color: rgb(213, 208, 208);
-      width:14.5%;
-      height: 20vh;
-      display: block;
-      border-radius: 100%;
-      opacity: 20%;
-  
-  }
-  #ul8{
-      position: absolute;
-      top: 40%;
-      left: 65%;
-      background-color: rgb(213, 208, 208);
-      width: 7.5%;
-     height: 10vh;
-      display: block;
-      border-radius: 100%;
-      opacity: 20%;
-  
-  }
-  #ul9{
-      position: absolute;
-      top: 75%;
-      left: 30%;
-      background-color: rgb(213, 208, 208);
-      width: 10.5%;
-      height: 14vh;
-      display: block;
-      border-radius: 100%;
-      opacity: 20%;
-  
-  }
-  #ul99{
-      position: absolute;
-      top: 11%;
-      left: 34%;
-      background-color: rgb(213, 208, 208);
-      width: 7.5%;
-      height: 11vh;
-      display: block;
-      border-radius: 100%;
-      opacity: 20%;
-  
-  } */
+
+  @media (min-width:750px) and (max-width:1000px){
+    #h2welcoming{
+        font-size: larger; 
+    }
   }
 
 
-
-  @media (max-width:769px)
+  @media (max-width:1000px)
   {
     a{
         font-size: 65%;
@@ -579,145 +457,37 @@ button{
       }
     #h2welcoming{
         text-align: center;
-     font-size:85%;;
+     font-size:large;
+     letter-spacing: 2px;
     }
-    /* #ul1{
-      position: absolute;
-      top: 0%;
-      left: 80%;
-      background-color: rgb(213, 208, 208);
-      width:11%;
-      height: 15vh;
-      display: block;
-      border-radius: 50%;
-      opacity: 20%;
-  
-  }
-  #ul2{
-      position: absolute;
-      top: 55%;
-      left: 10%;
-      background-color: rgb(213, 208, 208);
-      width: 10%;
-      height: 15vh;
-      display: block;
-      border-radius: 50%;
-      opacity: 20%;
-  
-  }
-  #ul3{
-      position: absolute;
-      top: 10%;
-      left: 60%;
-      background-color: rgb(213, 208, 208);
-      width:14.5%;
-      height: 20vh;
-      display: block;
-      border-radius: 75%;
-      opacity: 20%;
-  
-  }
-  #ul4{
-      position: absolute;
-      top: 70%;
-      left: 70%;
-      background-color: rgb(213, 208, 208);
-      width: 14.5%;
-      height: 20vh;
-      display: block;
-      border-radius: 75%;
-      opacity: 20%;
-  
-  }
-  #ul5{
-      position: absolute;
-      top: 22%;
-      left: 32%;
-      background-color: rgb(213, 208, 208);
-      width: 9.5%;
-      height: 10vh;
-      display: block;
-      border-radius: 50%;
-      opacity: 20%;
-  
-  }
-  #ul6{
-      position: absolute;
-      top: 38%;
-      left: 45%;
-      background-color: rgb(213, 208, 208);
-      width: 8.5%;
-      height: 10vh;
-      display: block;
-      border-radius: 50%;
-      opacity: 20%;
-  
-  }
-  #ul7{
-      position: absolute;
-      top: 50%;
-      left: 30%;
-      background-color: rgb(213, 208, 208);
-      width:14.5%;
-      height: 20vh;
-      display: block;
-      border-radius: 100%;
-      opacity: 20%;
-  
-  }
-  #ul8{
-      position: absolute;
-      top: 40%;
-      left: 65%;
-      background-color: rgb(213, 208, 208);
-      width: 0.5%;
-      height: 6vh;
-      display: block;
-      border-radius: 100%;
-      opacity: 20%;
-  
-  }
-  #ul9{
-      position: absolute;
-      top: 75%;
-      left: 30%;
-      background-color: rgb(213, 208, 208);
-      width: 9.5%;
-      height: 12vh;
-      display: block;
-      border-radius: 100%;
-      opacity: 20%;
-  
-  }
-  #ul99{
-      position: absolute;
-      top: 11%;
-      left: 34%;
-      background-color: rgb(213, 208, 208);
-      width: 0.5%;
-      height: 6vh;
-      display: block;
-      border-radius: 100%;
-      opacity: 20%;
-  
-  } */
-  #par,#a22,#link{
+      #par,#a22,#link{
     font-size: 14px;
    }
+  
+  h2,h3{
+      color: rgba(255, 255, 255);
   }
-  @media (max-width:426px)
+  p{
+    font-size: 60%;
+}
+#a11{
+    font-size: 80%;
+}
+}
+  @media (max-width:440px)
   {
       h1{
         font-size: 5.5vw;
         margin-top: 15%;
       }
-      h2{
+      h2,h3{
         font-size: 90%;
       }
     #h2welcoming{
         text-align: center;
        font-size: 65%;
     } 
+    
     #homeForm{
         width: 70%;
         margin: 25% 16%;
@@ -741,37 +511,7 @@ button{
     #ul3{
         padding-bottom: 10%;
     }
-    /* #ul1{
-        width: 17%;
-    height: 12vh;
-
-    }
-    #ul2{
-        width: 16%;
-        height: 11vh;
-    }
-    #ul3{
-     width: 18.5%;
-    height: 12vh;
-    }
-    #ul4{
-        width: 17.5%;
-        height: 15vh;
-    }
-    #ul5{
-        left: 16%;
-        width: 15.5%;
-    }
-    #ul6{
-        left: 9%;
-        width: 15.5%;
-    }
-    #ul7{
-        width: 15.5%;
-    height: 12vh;
-    left: 68%;
-    }   */
-    #selectForm{
+        #selectForm{
         width: 80%;
         margin: 10% 10%;
         align-content: center;
@@ -780,6 +520,11 @@ button{
         margin-top: 8%;
         width: 84%;
         margin-left: 8%;
+       }
+       #submittt{
+        margin-top: 8%;
+        width: 84%;
+        /* margin-left: 8%; */
        }
    #select{
     letter-spacing: 1px;
@@ -815,38 +560,7 @@ button{
     #ul99{
          padding-bottom: 12%;
     }
-    /* #a11{
-        font-size: 2.5vw;
-    }
-    #ul1{
-        width: 17%;
-    height: 12vh;
-
-    }
-    #ul2{
-        width: 16%;
-        height: 11vh;
-    }
-    #ul3{
-     width: 18.5%;
-    height: 12vh;
-    }
-    #ul4{
-        width: 17.5%;
-        height: 15vh;
-    }
-    #ul5{
-        left: 16%;
-        width: 15.5%;
-    }
-    #ul6{
-        left: 9%;
-        width: 15.5%;
-    }
-    #ul7{
-        width: 18.5%;
-    height: 13vh;
-    }   */
+    
     #homeForm{
         width: 70%;
         margin: 30% 18%;
@@ -900,33 +614,7 @@ button{
     #ul3{
         padding-bottom: 12%;
     }
-    /* #ul1{
-        width: 16%;
-    height: 10vh;
-    }
-    #ul3{
-     width: 18.5%;
-    height: 11vh;
-    }
-    #ul4{
-        width: 17.5%;
-        height: 15vh;
-    }
-    #ul5{
-        left: 16%;
-    }
-    #ul6{
-        left: 9%;
-    }  
-    #ul7{
-    width: 19.5%;
-    height: 10vh;
-    }
-    #ul8{
-        width: 25.5%;
-        height: 12vh;
-        top: 27%;
-       } */
+    
     #homeForm{
         width: 70%;
         margin: 30% 18%;
@@ -969,21 +657,7 @@ button{
    p{
     margin-top: 15%;
    }
-   /* #ul1{
-    height: 7vh;
-   }
-   #ul2{
-    height: 10vh;
-   }
-   #ul3{
-    height: 9vh;
-   }
-   #ul4{
-    height: 8vh;
-   }
-   #ul7{
-    height: 11vh;
-   } */
+   
   
    #submitt{
     margin-top: 8%;
@@ -1009,4 +683,45 @@ button{
    #par,#a22,#link{
     font-size: 10px;
    }
+  }
+
+  @media (max-height:415px){
+      #h2welcoming{
+          font-size: small;
+          letter-spacing: 0;
+          text-align:center;
+      }
+      h3{
+        font-size: small;
+        letter-spacing: 0;
+        text-align:center;
+      }
+
+      #submitt{
+          margin-top: 0;
+          height: 10vh;
+      }
+      #submittt{
+        margin-top: 0;
+        height: 10vh;
+      }
+      #selectForm{
+        height: 60vh;
+      }
+
+  }
+  @media (max-height:415px){
+    #h2welcoming{
+        font-size: x-small;
+        letter-spacing: 0;
+        text-align:center;
+    }
+    h3{
+      font-size: x-small;
+      letter-spacing: 0;
+      text-align:center;
+    }
+    #selectForm{
+        margin: 5% 10%;
+      }
   }

@@ -365,18 +365,24 @@ if (i == 1)
 
 setTimeout(function(){
     qDiv.style.display='none';
+    let SpecifiedQuestions=selectedExamQuestions;
+    for(i=0; i<10; i++){
+      let a=Object.values(SpecifiedQuestions[i]);
+      yourAnswers.push(a[savedAnswers[i]]);
+  }
     for(k=0;k<10;k++){
       if (yourAnswers[k]== undefined) {
         yourAnswers[k]="No answer";
       }
     }
+    console.log(yourAnswers);
 localStorage.setItem("Answers",JSON.stringify(savedAnswers));
 localStorage.setItem("yourAnswers",JSON.stringify(yourAnswers));
 // resultButt.style.display='block'; 
 // document.getElementById("app").style.display="none";
-window.location ="../result/index.html"
+window.location ="../result/index.html";
 }
-,300000)
+,300000);
 
 /////////////////////////////CLOCK////////////////////////CLOCK//////////////////////////////////////////////
 ////////////////////////////////////CLOCK//////////CLOCK////////////////////////////////////////////////////
