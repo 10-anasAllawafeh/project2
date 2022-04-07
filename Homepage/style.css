@@ -61,7 +61,14 @@ button{
     border-radius: 50px;
     /* display: none; */
 }
+#submitt{
+    margin-left: 25%;
+}
 #submitt:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#submittt:hover{
     cursor: pointer;
     opacity: 0.8;
 }
