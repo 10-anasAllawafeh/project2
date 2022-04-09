@@ -151,8 +151,8 @@ const htmlQuestions=[
     },
     {
         question: 'Q6: CSS stands for',
-        choice1:  'Cascading style sheets',
-        choice2:  'Color and style sheets',//
+        choice1:  'Color and style sheets',
+        choice2:  'Cascading style sheets',//
         choice3:  'Cascade style sheets',
     },
     {
@@ -169,8 +169,8 @@ const htmlQuestions=[
     },
     {
         question: 'Q9: The CSS property used to make the text bold is :',
-        choice1: 'font-weight : bold',
-        choice2: 'weight: bold',//
+        choice1: 'weight: bold',
+        choice2: 'font-weight : bold',//
         choice3: 'font: bold',
     },
     {

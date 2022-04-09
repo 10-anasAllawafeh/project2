@@ -108,8 +108,8 @@ const cssQuestions=[
   },
   {
       question: 'Q6: CSS stands for',
-      choice1:  'Cascading style sheets',
-      choice2:  'Color and style sheets',//
+      choice1:  'Color and style sheets',
+      choice2:  'Cascading style sheets',//
       choice3:  'Cascade style sheets',
   },
   {
@@ -126,8 +126,8 @@ const cssQuestions=[
   },
   {
       question: 'Q9: The CSS property used to make the text bold is :',
-      choice1: 'font-weight : bold',
-      choice2: 'weight: bold',//
+      choice1: 'weight: bold',
+      choice2: 'font-weight : bold',//
       choice3: 'font: bold',
   },
   {
@@ -337,18 +337,14 @@ if (i == 1)
             answer2.innerHTML= SpecifiedQuestions[8].choice2;
             answer3.innerHTML= SpecifiedQuestions[8].choice3;
             break;
-        //     case(10):
-        // question.innerHTML= SpecifiedQuestions[9].question;
-        //     answer1.innerHTML= SpecifiedQuestions[9].choice1;
-        //     answer2.innerHTML= SpecifiedQuestions[9].choice2;
-        //     answer3.innerHTML= SpecifiedQuestions[9].choice3;
-        //     break;
-        default:
-          question.innerHTML= SpecifiedQuestions[9].question;
+            case(10):
+        question.innerHTML= SpecifiedQuestions[9].question;
             answer1.innerHTML= SpecifiedQuestions[9].choice1;
             answer2.innerHTML= SpecifiedQuestions[9].choice2;
             answer3.innerHTML= SpecifiedQuestions[9].choice3;
-            // qDiv.style.display='none';
+            btnNext.innerHTML="Submit";
+            break;
+        default: 
             btnNext.style.display="none";
             resultButt.style.display='block';
             for(i=0; i<10; i++){
@@ -358,7 +354,8 @@ if (i == 1)
             console.log(yourAnswers);
             localStorage.setItem("Answers",JSON.stringify(savedAnswers));
             localStorage.setItem("yourAnswers",JSON.stringify(yourAnswers));
-            // resultButt.style.display='block';
+            window.location ="../result/index.html";
+            
             
     }
 }
