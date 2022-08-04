@@ -1,8 +1,8 @@
 # project2 : Online Quiz Website
 
-welcome to our project repo link :) this project is aiming to create a rfully responsive online qiuz page for emplouing requirements in coding field , you will find three types of exams (HTML exam,CSS exam an JavaScript exam) for various position examinite .
+welcome to our project repo link :) this project is aiming to create a fully responsive online quiz page for hiring process in coding field , you will find three types of exams (HTML exam,CSS exam an JavaScript exam) for various position examinite .
 
-the structur is six pages including Home Page,Register Form,Login Form,Questions square and finally Result table.
+the structure is six pages including Home Page,Register Form,Login Form,Questions square and finally Result table.
 
 
 ## <>Home page 
